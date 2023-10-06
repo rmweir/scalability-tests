@@ -1,0 +1,6 @@
+kubernetes_version: v1.25.12-rancher1-1
+nodes:
+  - address: <ip>
+    ssh_key_path: <path-to-aws-key>
+    user: ubuntu
+    role: [controlplane,etcd,worker]
